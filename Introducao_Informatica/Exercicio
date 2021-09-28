@@ -1,0 +1,13 @@
+Endereço IP público: 201.67.57.210
+Endereço IP privado e sua máscara de rede: 192.168.20.108, 255.255.255.0
+Endereço MAC: D0-17-C2-8E-2C-91
+
+Os IPs público e privado pertencem à qual classe de rede?
+
+Classe A	10.0.0.0 – 10.255.255.255	16.777.214
+Classe B	172.16.0.0 – 172.31.255.255	65 534
+Classe C	192.168.0.0 – 192.168.255.255	254
+
+Que informações podemos obter do nosso endereço MAC?
+
+ASUSTek COMPUTER INC.
