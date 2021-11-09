@@ -1,0 +1,55 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+
+     ;
+}
+
+header {
+
+    width: 100%;
+    background-color: rgb(192, 233, 145);
+    position: fixed;
+    z-index: 20;
+    text-align: center;
+}
+
+.square {
+
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+.first-square {
+
+    background-color: skyblue;
+
+}
+
+.second-square {
+
+    background-color: slateblue;
+    /* position: relative;
+    left: 100px; */
+    /* position: absolute;
+    top: 50%;
+    left: 20%; */
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    left: 24px;
+    right: 24px;
+
+}
+
+.third-square {
+
+    background-color: teal;
+}
