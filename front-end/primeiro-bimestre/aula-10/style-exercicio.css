@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+body {
+
+    background-image: url(/2021_1.jpg);
+
+}
+
+main div {
+
+    font-size: 35px;
+    text-align: center;
+    
+    
+}
+
+button {
+
+    font-size: 20px;
+    
+
+}
+
+input {
+    font-size: 25px;
+}
+
+option {
+    font-size: 25px;
+}
+
+textarea {
+    font-size: 25px;
+}
+
+select {
+    font-size: 25px;
+}
