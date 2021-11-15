@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: url(/checkpoint01/styles/fundo_desfoque.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+header {
+
+    background-color:#015fb1b4;
+    padding: 20px;
+}
+
+header h1 {
+
+    text-align: center;
+    color: #f6e615;
+    font-family: 'Roboto', sans-serif;   
+}
+
+
+main p {
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    font-style:oblique;
+    margin: 30px 50px;
+    font-family: 'Roboto', sans-serif;   
+    
+}
+
+p span {
+
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.youtube {
+
+    
+    margin: 0 auto;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px; 
+    border-color: #f6e615; 
+    border-style:ridge;
+    display: block;  
+}
+
+.subtitulo {
+
+    color: #f6e615;
+    font-size: 40px ;
+    font-family: Arial, Arial, sans-serif;
+    font-weight: bold;
+    background-color:#0160b1;
+    margin-right: 800px;
+    margin-left: 800px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    text-align: center;
+
+
+
+}
+
+li {
+
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style:normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+li span {
+
+    background-color: #015fb19c;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+.icones {
+
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+
+}
+
+a {
+
+    text-decoration: underline;
+    
+}
