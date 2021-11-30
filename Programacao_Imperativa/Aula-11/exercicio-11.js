@@ -11,7 +11,7 @@ function converterMaiusculo(arrayEntrada){
 }
 
 let arrayFilmes = ["star wars", "matrix",  "mr. robot", "o preço do amanhã",  "a vida é bela"];
-console.log(converterMaiusculo(arrayFilmes));
+// console.log(converterMaiusculo(arrayFilmes));
 
 
 //Criação de outra estrutura
@@ -25,7 +25,7 @@ function concatArray(arrayEntrada, arrayConcat){
     return arrayEntrada;
 }
 
-console.log(concatArray(arrayFilmes, novosFilmes));
+// console.log(concatArray(arrayFilmes, novosFilmes));
 
 //3- Para este ponto se você decidiu trabalhar em um arquivo diferente em lugar
 //para modificar o anterior, lembre-se que tivemos um infiltrado dentro de
@@ -40,7 +40,7 @@ function concatArray2(arrayEntrada, arrayConcat){
 }
 
 let ultimoItem = '';
-console.log(concatArray2(arrayFilmes, novosFilmes));
+// console.log(concatArray2(arrayFilmes, novosFilmes));
 
 //4 - Finalmente, devemos modificar nossa função comparadora para os filmes
 // como temos feito até agora.
@@ -50,7 +50,7 @@ const euroScores = [8, 10, 6, 8, 10, 6, 7, 9, 5];
 function compararCalificaciones(asia, europa) {
     let comparacionesAsiaEuropa = []
     for (let i = 0; i < asia.length; i++){
-       comparacionesAsiaEuropa[i] = asia[i] == europa[i] ? 'Igual' : 'Diferente';
+       comparacionesAsiaEuropa[i] = asia[i] === europa[i] ? 'Igual' : 'Diferente';
     }
     return comparacionesAsiaEuropa; 
 }
